@@ -1,43 +1,49 @@
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/ui/marquee";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
+import Jack from "@/public/assets/jack.jpg";
+import Jill from "@/public/assets/jill.jpg";
+import John from "@/public/assets/john.jpg";
+import Jane from "@/public/assets/jane.jpg";
+import Jenny from "@/public/assets/jenny.jpg";
+import James from "@/public/assets/james.jpg";
 
 const reviews = [
   {
     name: "MyProtTracker",
     username: "@MyProtTracker",
     body: "Nous avons adoré développer notre idée et notre application web avec Valentin.",
-    img: "https://avatar.vercel.sh/jack",
+    img: Jack,
   },
   {
     name: "LTK Couverture",
     username: "@LTK Couverture",
     body: "Merci à Valentin d'avoir fait notre site internet en montrant nos compétences et savoir faire.",
-    img: "https://avatar.vercel.sh/jill",
+    img: Jill,
   },
   {
     name: "Optima Formation",
     username: "@optima",
     body: "Valentin a su redéfinir notre identité visuelle et mettre en avant nos formations.",
-    img: "https://avatar.vercel.sh/john",
+    img: John,
   },
   {
     name: "Anais Di Filippo",
     username: "@anaisdifilippo",
     body: "J'ai enfin un site pour montrer mon cv et mes compétences en ligne.",
-    img: "https://avatar.vercel.sh/jane",
+    img: Jane,
   },
   {
     name: "Garnem",
     username: "@garnem",
     body: "Une touche de modernité et de simplicité pour notre site vitrine.",
-    img: "https://avatar.vercel.sh/jenny",
+    img: Jenny,
   },
   {
     name: "Optifroid",
     username: "@optifroid",
     body: "Valentin a créer de A à Z notre site internet, de l'hébergement à la conception graphique.",
-    img: "https://avatar.vercel.sh/james",
+    img: James,
   },
 ];
 
@@ -50,7 +56,7 @@ const ReviewCard = ({
   username,
   body,
 }: {
-  img: string;
+  img: StaticImageData;
   name: string;
   username: string;
   body: string;
