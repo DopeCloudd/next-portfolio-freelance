@@ -17,9 +17,9 @@ export const Cta = () => {
             à votre image
           </h2>
           <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0">
-            Vos attentes sont uniques, votre site web doit l'être aussi. Je vous
-            accompagne pour créer un site web qui vous ressemble et qui répond à
-            vos besoins.
+            Vos attentes sont uniques, votre site web doit l&apos;être aussi. Je
+            vous accompagne pour créer un site web qui vous ressemble et qui
+            répond à vos besoins.
           </p>
         </div>
 

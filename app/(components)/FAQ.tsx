@@ -67,7 +67,7 @@ export const FAQ = () => {
       </Accordion>
 
       <h3 className="font-medium mt-4">
-        Vous avez d'autres questions ?{" "}
+        Vous avez d&apos;autres questions ?{" "}
         <a
           rel="noreferrer noopener"
           href="mailto:contact@valentin-lerouge.fr"

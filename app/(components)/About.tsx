@@ -29,8 +29,8 @@ export const About = () => {
                 <br />
                 <br />
                 Je serai vous accompagner tout au long de votre projet, de la
-                conception à la mise en ligne. N'hésitez pas à me contacter pour
-                discuter de votre projet.
+                conception à la mise en ligne. N&apos;hésitez pas à me contacter
+                pour discuter de votre projet.
               </p>
             </div>
           </div>

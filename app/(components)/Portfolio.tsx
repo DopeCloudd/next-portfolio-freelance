@@ -79,7 +79,8 @@ export const Portfolio = () => {
         </span>
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Voici quelques-uns des sites web que j'ai réalisés pour mes clients.
+        Voici quelques-uns des sites web que j&apos;ai réalisés pour mes
+        clients.
       </p>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

@@ -52,8 +52,8 @@ export const HeroCards = () => {
 
         <CardContent className="text-center pb-2">
           <p>
-            Passioné par le développement web, j'en ai fait mon métier. J'aime
-            créer et innover.
+            Passioné par le développement web, j&apos;en ai fait mon métier.
+            J&apos;aime créer et innover.
           </p>
         </CardContent>
 
