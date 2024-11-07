@@ -7,7 +7,6 @@ import { Portfolio } from "@/app/(components)/Portfolio";
 import { Cta } from "@/app/(components)/Cta";
 import { Pricing } from "@/app/(components)/Pricing";
 import { FAQ } from "@/app/(components)/FAQ";
-import { Reviews } from "@/app/(components)/Reviews";
 import { Footer } from "@/app/(components)/Footer";
 
 export default function Home() {
@@ -22,7 +21,6 @@ export default function Home() {
       <Cta />
       <Pricing />
       <FAQ />
-      <Reviews />
       <Footer />
     </>
   );
