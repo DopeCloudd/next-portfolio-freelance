@@ -1,9 +1,6 @@
 "use client";
 import Mockup_Myprottracker from "@/public/assets/mockup-myprottracker.png";
-import Mockup_Ltk from "@/public/assets/mockup-ltk.png";
 import Mockup_Garnem from "@/public/assets/mockup-garnem.png";
-import Mockup_Optima from "@/public/assets/mockup-optima.png";
-import Mockup_Optifroid from "@/public/assets/mockup-optifroid.png";
 import Mockup_Anais from "@/public/assets/mockup-anais.png";
 import Mockup_Creatyz from "@/public/assets/mockup-creatyz.png";
 import { StaticImageData } from "next/image";
@@ -46,27 +43,6 @@ export const Portfolio = () => {
       image: Mockup_Anais,
       description: "Design et développement via WordPress",
       online: false,
-    },
-    {
-      url: "https://ltk-couverture.fr/",
-      title: "LTK Couverture",
-      image: Mockup_Ltk,
-      description: "Design et développement via WordPress",
-      online: true,
-    },
-    {
-      url: "https://optifroid.fr/",
-      title: "Optifroid",
-      image: Mockup_Optifroid,
-      description: "Design et développement via WordPress",
-      online: true,
-    },
-    {
-      url: "https://optima-groupe.com/",
-      title: "Optima Formation",
-      image: Mockup_Optima,
-      description: "Design et développement via WordPress",
-      online: true,
     },
   ];
 

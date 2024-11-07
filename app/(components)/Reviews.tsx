@@ -16,18 +16,6 @@ const reviews = [
     img: Jack,
   },
   {
-    name: "LTK Couverture",
-    username: "@LTK Couverture",
-    body: "Merci à Valentin d'avoir fait notre site internet en montrant nos compétences et savoir faire.",
-    img: Jill,
-  },
-  {
-    name: "Optima Formation",
-    username: "@optima",
-    body: "Valentin a su redéfinir notre identité visuelle et mettre en avant nos formations.",
-    img: John,
-  },
-  {
     name: "Anais Di Filippo",
     username: "@anaisdifilippo",
     body: "J'ai enfin un site pour montrer mon cv et mes compétences en ligne.",
@@ -38,12 +26,6 @@ const reviews = [
     username: "@garnem",
     body: "Une touche de modernité et de simplicité pour notre site vitrine.",
     img: Jenny,
-  },
-  {
-    name: "Optifroid",
-    username: "@optifroid",
-    body: "Valentin a créer de A à Z notre site internet, de l'hébergement à la conception graphique.",
-    img: James,
   },
 ];
 
