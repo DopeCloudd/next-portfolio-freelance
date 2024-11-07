@@ -2,11 +2,8 @@ import { cn } from "@/lib/utils";
 import Marquee from "@/components/ui/marquee";
 import Image, { StaticImageData } from "next/image";
 import Jack from "@/public/assets/jack.png";
-import Jill from "@/public/assets/jill.png";
-import John from "@/public/assets/john.png";
 import Jane from "@/public/assets/jane.png";
 import Jenny from "@/public/assets/jenny.png";
-import James from "@/public/assets/james.png";
 
 const reviews = [
   {
