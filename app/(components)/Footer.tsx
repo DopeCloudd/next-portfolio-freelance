@@ -73,7 +73,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://www.linkedin.com/in/valentin-lerouge-b623b51a4/"
               className="opacity-60 hover:opacity-100"
             >
               Linkedin
@@ -82,7 +82,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="https://github.com/DopeCloudd"
               target="_blank"
               className="opacity-60 hover:opacity-100"
             >
@@ -96,7 +96,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/mentions-legales"
               className="opacity-60 hover:opacity-100"
             >
               Mentions légales
@@ -106,20 +106,10 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/politique-de-confidentialite"
               className="opacity-60 hover:opacity-100"
             >
               Politique de confidentialité
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Plan du site
             </a>
           </div>
         </div>

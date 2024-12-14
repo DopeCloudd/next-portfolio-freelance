@@ -1,10 +1,12 @@
 "use client";
-import Mockup_Myprottracker from "@/public/assets/mockup-myprottracker.png";
-import Mockup_Garnem from "@/public/assets/mockup-garnem.png";
+import Mockup_Evolution from "@/public/assets/Evolution.png";
 import Mockup_Anais from "@/public/assets/mockup-anais.png";
 import Mockup_Creatyz from "@/public/assets/mockup-creatyz.png";
-import { StaticImageData } from "next/image";
-import Image from "next/image";
+import Mockup_Garnem from "@/public/assets/mockup-garnem.png";
+import Mockup_Myprottracker from "@/public/assets/mockup-myprottracker.png";
+import Mockup_Orientation from "@/public/assets/Orientation.png";
+import Mockup_Reconversion from "@/public/assets/Reconversion.png";
+import Image, { StaticImageData } from "next/image";
 
 export const Portfolio = () => {
   interface website {
@@ -43,6 +45,27 @@ export const Portfolio = () => {
       image: Mockup_Anais,
       description: "Design et développement via WordPress",
       online: false,
+    },
+    {
+      url: "https://www.orientation-competences.fr/",
+      title: "Orientation Compétences",
+      image: Mockup_Orientation,
+      description: "Design et développement via Framer",
+      online: true,
+    },
+    {
+      url: "https://reconversion-professionnelle.com/",
+      title: "Reconversion Professionnelle",
+      image: Mockup_Reconversion,
+      description: "Design et développement via WordPress",
+      online: true,
+    },
+    {
+      url: "https://www.monportailpro.fr/",
+      title: "Evolution",
+      image: Mockup_Evolution,
+      description: "Design et développement via Framer",
+      online: true,
     },
   ];
 

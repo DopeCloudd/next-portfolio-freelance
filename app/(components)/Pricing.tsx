@@ -28,7 +28,7 @@ const pricingList: PricingProps[] = [
   {
     title: "Site vitrine",
     popular: 0,
-    price: 500,
+    price: 1000,
     description:
       "Présentez votre activité et vos services sur un site web moderne. Développé via WordPress pour une gestion facile.",
     buttonText: "Demander un devis",
@@ -47,7 +47,7 @@ const pricingList: PricingProps[] = [
   {
     title: "Plateforme e-commerce",
     popular: 0,
-    price: 1000,
+    price: 1500,
     description:
       "Vendez vos produits en ligne grâce à une boutique e-commerce. Développé via Shopify pour une expérience utilisateur optimale.",
     buttonText: "Demander un devis",
@@ -67,7 +67,7 @@ const pricingList: PricingProps[] = [
   {
     title: "Site sur mesure",
     popular: 0,
-    price: 1400,
+    price: 2000,
     description:
       "Développement d'un site web sur mesure pour répondre à vos besoins spécifiques. Développé via React pour une performance optimale.",
     buttonText: "Demander un devis",

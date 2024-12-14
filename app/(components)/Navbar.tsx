@@ -14,9 +14,9 @@ import {
 import { useState } from "react";
 
 import { ModeToggle } from "@/app/(components)/mode-toggle";
-import { PaperPlaneIcon, ChatBubbleIcon } from "@radix-ui/react-icons";
-import { Menu } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
+import { ChatBubbleIcon, PaperPlaneIcon } from "@radix-ui/react-icons";
+import { Menu } from "lucide-react";
 
 interface RouteProps {
   href: string;
@@ -25,19 +25,19 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#services",
+    href: "/#services",
     label: "Étapes",
   },
   {
-    href: "#portfolio",
+    href: "/#portfolio",
     label: "Projets",
   },
   {
-    href: "#pricing",
+    href: "/#pricing",
     label: "Tarifs",
   },
   {
-    href: "#faq",
+    href: "/#faq",
     label: "FAQ",
   },
 ];
